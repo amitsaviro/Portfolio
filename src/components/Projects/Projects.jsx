@@ -4,7 +4,8 @@ import Ecommerce from '../../assets/E-commerce.png';
 import TicTacToe from '../../assets/Tic-Tac-Toe.png';
 import Memory from '../../assets/Memory-game.png';
 import Portfolio from '../../assets/Portfolio.png';
-import githubIcon from '../../assets/github-icon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const projects = [
     {
@@ -28,7 +29,7 @@ const projects = [
     {
         id: 4,
         image: Portfolio,
-        githubLink: 'https://github.com/yourusername/project3',
+        githubLink: 'https://github.com/amitsaviro/Portfolio',
         alt: 'Portfolio',
     },
 ];
@@ -36,12 +37,15 @@ const projects = [
 const Projects = () => {
     return (
         <section id="projects">
+            <div className="projectsTitleContainer">
+                <h2 className="projectsTitle">My Projects</h2>
+            </div>
             <div className="projectsGrid">
-                {projects.map(project => (
-                    <div key={project.id} className="projectItem">
+                {projects.map((project, index) => (
+                    <div key={project.id} className={`projectItem item-${index}`}>
                         <img src={project.image} alt={project.alt} className="projectImage" />
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="githubLink">
-                            <img src={githubIcon} alt="GitHub" className="githubIcon" />
+                            <FontAwesomeIcon icon={faGithub} className="githubIcon" />
                         </a>
                     </div>
                 ))}
