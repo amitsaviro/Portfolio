@@ -89,9 +89,11 @@
     .hello {
         font-size: 4.5vw;
     }
-    .introPara {
-        color: rgb(0, 0, 0);
-        font-weight: 700;
+    .introP {
+        background-color: rgba(0, 0, 0, 0.7); 
+        padding: 0.5rem 1rem; 
+        border-radius: 0.5rem; 
+        margin-top: 1rem; 
     }
 }
 
