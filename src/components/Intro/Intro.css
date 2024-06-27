@@ -49,20 +49,35 @@
 }
 
 .hire-me-btn {
-    background: white;
+    background: linear-gradient(45deg, #FFD700, #FFB347, #FF7E5F);
     margin: 1rem 0;
-    padding: 1.25rem;
+    padding: 1rem 2rem;
     border: none;
     border-radius: 2rem;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1.25rem; /* Increased font size */
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.hire-me-btn:hover {
+    background: linear-gradient(45deg, #FFB347, #FFD700, #FF7E5F);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 .hire-me-icon {
     object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
+    margin-right: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
+
 
 @media screen and (max-width: 840px) {
     .amit {
@@ -75,8 +90,8 @@
         font-size: 4.5vw;
     }
     .introPara {
-        color: rgb(222, 222, 1);
-        font-weight: 600;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
     }
 }
 

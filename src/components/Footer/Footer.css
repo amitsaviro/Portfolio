@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+.footerLogo {
+    object-fit: cover;
+    height: 4rem;
+    width: 5rem;
+}
+
+.footerSocialIcons {
+    display: flex;
+    align-items: center;
+}
+
+.footerSocialIcons a {
+    margin: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.footerSocialIcons a:hover {
+    background-color: yellow;
+    border-color: white;
+}
+.footerSocialIcon{
+    font-size: 1.5rem;
+    color: white;
+}
+.footerCopyright {
+    font-size: 0.9rem;
+}

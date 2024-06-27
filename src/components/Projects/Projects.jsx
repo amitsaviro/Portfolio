@@ -37,9 +37,7 @@ const projects = [
 const Projects = () => {
     return (
         <section id="projects">
-            <div className="projectsTitleContainer">
                 <h2 className="projectsTitle">My Projects</h2>
-            </div>
             <div className="projectsGrid">
                 {projects.map((project, index) => (
                     <div key={project.id} className={`projectItem item-${index}`}>

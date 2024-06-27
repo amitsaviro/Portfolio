@@ -1,21 +1,9 @@
-.projectsTitleContainer {
-    position: relative;
-    height: 10rem;
-    overflow: hidden;
-    margin-bottom: 2rem;
-}
-
 .projectsTitle {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 4rem; 
-    font-weight: 700;
-    color: #fff; 
-    z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    animation: slideIn 1s ease forwards; 
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .projectsGrid {
@@ -63,12 +51,12 @@
 }
 
 .githubIcon {
-    font-size: 4rem; /* Adjust the size of the GitHub icon */
+    font-size: 4rem; 
 }
 
 @media screen and (max-width: 768px) {
     .projectsGrid {
-        grid-template-columns: repeat(1, 1fr); /* Change to single column on smaller screens */
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
