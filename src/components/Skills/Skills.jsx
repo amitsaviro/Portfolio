@@ -5,38 +5,45 @@ import website from '../../assets/website.jpeg';
 import problems from '../../assets/problems.png';
 import teamwork from '../../assets/teamwork.webp';
 
-const Skills = () =>{
-    return(
+const Skills = () => {
+    return (
         <section id="skills">
             <span className="skillsTitle">My Skills</span>
-            <span className="skillsDesc">I am a skilled and passionate full stack developer with experience in creating end to end websites. I have a strong understangind in HTML, CSS, Java Script, jQuery and React framework in frontend and Java, Spring Boot and SQL in backend.</span>
+            <span className="skillsDesc">
+                I am a passionate Full-Stack Developer with a deep technical background in building scalable, 
+                high-performance applications. My expertise spans across frontend modern frameworks, 
+                backend system architecture, and efficient infrastructure management.
+            </span>
             <div className="skillsBars">
                 <div className="skillsBar">
                     <img src={website} alt="frontend" className="skillsBarImg" />
                     <div className="skillsBarText">
-                        <h2>Front-end Developer</h2>
-                        <p>I have high level of skills in HTML, CSS, jQuery, Java Script and React framework.</p>
+                        <h2>Front-end Development</h2>
+                        <p>High-level expertise in HTML, CSS, JavaScript, and React, creating responsive and dynamic user interfaces.</p>
                     </div>
                 </div>
+                
                 <div className="skillsBar">
-                    <img src={problems} alt="problem solving" className="skillsBarImg" />
-                    <div className="skillsBarText">
-                        <h2>Problems solvin</h2>
-                        <p>Advenced problem solving skills in minimum time.</p>
-                    </div>
-                </div>
-                 <div className="skillsBar">
                     <img src={java} alt="backend" className="skillsBarImg" />
                     <div className="skillsBarText">
-                        <h2>Back-end Developer</h2>
-                        <p>I have high level of skills in Java, Spring Boot and SQL-MySql</p>
+                        <h2>Back-end & Systems</h2>
+                        <p>Proficient in Java, Spring Boot, Python, and C++. Experienced in Multithreading, Communication Models, and robust system logic.</p>
                     </div>
                 </div>
+
                 <div className="skillsBar">
-                    <img src={teamwork} alt="teamwork" className="skillsBarImg" />
+                    <img src={problems} alt="data and infrastructure" className="skillsBarImg" />
                     <div className="skillsBarText">
-                        <h2>Collaboration & Teamwork</h2>
-                        <p>Teamwork player with excellent interpersonal skills</p>
+                        <h2>Data & Infrastructure</h2>
+                        <p>Expertise in SQL (MySQL & pgAdmin), database management, and streamlining development environments with Docker.</p>
+                    </div>
+                </div>
+
+                <div className="skillsBar">
+                    <img src={teamwork} alt="soft skills" className="skillsBarImg" />
+                    <div className="skillsBarText">
+                        <h2>Problem Solving & Teamwork</h2>
+                        <p>Advanced analytical skills with a focus on efficient solutions. A collaborative team player with strong communication skills.</p>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 .projectsTitle {
     font-size: 4rem;
     font-weight: 600;
@@ -8,9 +9,9 @@
 
 .projectsGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
-    margin:0 10%;
+    margin: 0 10%;
 }
 
 .projectItem {
@@ -19,12 +20,14 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 250px; 
 }
 
 .projectImage {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%; 
+    object-fit: cover; 
     transition: opacity 0.3s ease;
 }
 
@@ -54,9 +57,14 @@
     font-size: 4rem; 
 }
 
+/* for small screen */
 @media screen and (max-width: 768px) {
     .projectsGrid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr; 
+        margin: 0 5%;
     }
 
+    .projectItem {
+        height: 200px; 
+    }
 }

@@ -4,6 +4,10 @@ import Ecommerce from '../../assets/E-commerce.png';
 import TicTacToe from '../../assets/Tic-Tac-Toe.png';
 import Memory from '../../assets/Memory-game.png';
 import Portfolio from '../../assets/Portfolio.png';
+import falafel from '../../assets/Falafel_King.jpg';
+import mem from '../../assets/mem.webp';
+import reactor from '../../assets/reactor.webp';
+import threads from '../../assets/threads.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -31,6 +35,30 @@ const projects = [
         image: Portfolio,
         githubLink: 'https://github.com/amitsaviro/Portfolio',
         alt: 'Portfolio',
+    },
+    {
+        id: 5,
+        image: falafel,
+        githubLink: 'https://github.com/amitsaviro/king-of-falafel',
+        alt: 'king-of-falafel',
+    },
+    {
+        id: 6,
+        image: mem,
+        githubLink: 'https://github.com/amitsaviro/SPL25-Assignment1-memoryManagment',
+        alt: 'memoryManagment',
+    },
+    {
+        id: 7,
+        image: reactor,
+        githubLink: 'https://github.com/amitsaviro/HW3-SPL-Communication',
+        alt: 'Communication',
+    },
+    {
+        id: 8,
+        image: threads,
+        githubLink: 'https://github.com/amitsaviro/HW2---SPL-Threads ',
+        alt: 'threads',
     },
 ];
 

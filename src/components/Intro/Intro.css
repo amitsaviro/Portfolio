@@ -5,15 +5,17 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex; 
+    align-items: center;
 }
 
 .amit {
     position: absolute;
-    top: -4rem;
+    bottom: 0; 
     right: 0;
-    z-index: -1;
-    object-fit: cover;
-    height: 100vh;
+    height: 90%; 
+    object-fit: contain;
+    z-index: 0;
 }
 
 .introContent {
@@ -26,6 +28,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    max-width: 55%; 
+    z-index: 2;
 }
 
 .hello {
@@ -35,6 +39,8 @@
 
 .introText {
     text-align: left;
+    max-width: 480px; 
+    line-height: 1.2;
 }
 
 .introName {
@@ -46,6 +52,8 @@
     font-weight: 300;
     letter-spacing: 0.75px;
     text-align: left;
+    max-width: 420px; 
+    line-height: 1.5;
 }
 
 .hire-me-btn {
@@ -55,7 +63,7 @@
     border: none;
     border-radius: 2rem;
     cursor: pointer;
-    font-size: 1.25rem; /* Increased font size */
+    font-size: 1.25rem;
     font-weight: 600;
     color: white;
     display: flex;
@@ -78,13 +86,14 @@
     width: 1.5rem;
 }
 
-
 @media screen and (max-width: 840px) {
+    .introContent {
+        max-width: 100%; 
+        font-size: 10vw;
+    }
     .amit {
         right: -10vh;
-    }
-    .introContent {
-        font-size: 10vw;
+        opacity: 0.5; 
     }
     .hello {
         font-size: 4.5vw;
