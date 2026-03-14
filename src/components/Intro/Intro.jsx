@@ -1,6 +1,6 @@
 import React from "react";
 import './Intro.css';
-import amit from '../../assets/amit.png';
+import amit from '../../assets/amit_new.png';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
