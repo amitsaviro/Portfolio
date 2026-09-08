@@ -8,6 +8,8 @@ import falafel from '../../assets/Falafel_King.jpg';
 import mem from '../../assets/mem.webp';
 import reactor from '../../assets/reactor.webp';
 import threads from '../../assets/threads.webp';
+import kanban from '../../assets/kanban.jpg';
+import mosad from '../../assets/mosad.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -59,6 +61,18 @@ const projects = [
         image: threads,
         githubLink: 'https://github.com/amitsaviro/HW2---SPL-Threads ',
         alt: 'threads',
+    },
+    {
+        id: 9,
+        image: kanban,
+        githubLink: 'https://github.com/BGU-SE-Courses/kanban-2026-2026-23.git',
+        alt: 'kanban',
+    },
+    {
+        id: 10,
+        image: mosad,
+        githubLink: 'https://github.com/amitsaviro/mosad.git ',
+        alt: 'mosad',
     },
 ];
 
