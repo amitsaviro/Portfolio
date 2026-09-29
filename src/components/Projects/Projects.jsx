@@ -3,13 +3,13 @@ import './Projects.css';
 import Ecommerce from '../../assets/E-commerce.png';
 import TicTacToe from '../../assets/Tic-Tac-Toe.png';
 import Memory from '../../assets/Memory-game.png';
-import Portfolio from '../../assets/Portfolio.png';
 import falafel from '../../assets/Falafel_King.jpg';
 import mem from '../../assets/mem.webp';
 import reactor from '../../assets/reactor.webp';
 import threads from '../../assets/threads.webp';
-import kanban from '../../assets/kanban.jpg';
+import kanban from '../../assets/kanban.png';
 import mosad from '../../assets/mosad.png';
+import ai from '../../assets/ai.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -22,33 +22,33 @@ const projects = [
     },
     {
         id: 2,
-        image: TicTacToe,
-        githubLink: 'https://github.com/amitsaviro/tic-tac-toe-project',
-        alt: 'Tic Tac Toe',
+        image: mosad,
+        githubLink: 'https://github.com/amitsaviro/mosad.git ',
+        alt: 'mosad',
     },
     {
         id: 3,
-        image: Memory,
-        githubLink: 'https://github.com/amitsaviro/Memory-game',
-        alt: 'Memory game',
-    },
-    {
-        id: 4,
-        image: Portfolio,
-        githubLink: 'https://github.com/amitsaviro/Portfolio',
-        alt: 'Portfolio',
-    },
-    {
-        id: 5,
-        image: falafel,
-        githubLink: 'https://github.com/amitsaviro/king-of-falafel',
-        alt: 'king-of-falafel',
-    },
-    {
-        id: 6,
         image: mem,
         githubLink: 'https://github.com/amitsaviro/SPL25-Assignment1-memoryManagment',
         alt: 'memoryManagment',
+    },
+    {
+        id: 4,
+        image: ai,
+        githubLink: 'https://github.com/amitsaviro/ai-football-studio.git',
+        alt: 'ai',
+    },
+    {
+        id: 5,
+        image: kanban,
+        githubLink: 'https://github.com/BGU-SE-Courses/kanban-2026-2026-23.git',
+        alt: 'kanban',
+    },
+    {
+        id: 6,
+        image: Memory,
+        githubLink: 'https://github.com/amitsaviro/Memory-game',
+        alt: 'Memory game',
     },
     {
         id: 7,
@@ -64,15 +64,15 @@ const projects = [
     },
     {
         id: 9,
-        image: kanban,
-        githubLink: 'https://github.com/BGU-SE-Courses/kanban-2026-2026-23.git',
-        alt: 'kanban',
+        image: falafel,
+        githubLink: 'https://github.com/amitsaviro/king-of-falafel',
+        alt: 'king-of-falafel',
     },
     {
         id: 10,
-        image: mosad,
-        githubLink: 'https://github.com/amitsaviro/mosad.git ',
-        alt: 'mosad',
+        image: TicTacToe,
+        githubLink: 'https://github.com/amitsaviro/tic-tac-toe-project',
+        alt: 'Tic Tac Toe',
     },
 ];
 
